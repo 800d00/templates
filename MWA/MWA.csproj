@@ -252,7 +252,6 @@
     <Content Include="fonts\fontsawesome\FontAwesome.otf" />
     <None Include="Properties\PublishProfiles\Profile1.pubxml" />
     <None Include="Scripts\jquery-2.1.4\jquery-2.1.4.intellisense.js" />
-    <Content Include="Icon.png" />
     <Content Include="Media\down.png" />
     <Content Include="Media\fancy-loading.gif" />
     <Content Include="Media\feather.png" />
@@ -336,7 +335,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <None Include="Project_Readme.html" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
