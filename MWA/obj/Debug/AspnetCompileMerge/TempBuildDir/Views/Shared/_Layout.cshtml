@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - MWA</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/bundles/flexslider")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/fancybox")
+
+</head>
+<body>
+    <section id="home">
+        <div class="row centered">
+            <h1 class="fade in">
+                <img alt="YOURLOGO" src="img/logo_header.png">
+            </h1>
+        </div>
+    </section>
+    @RenderBody()
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/flexslider")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

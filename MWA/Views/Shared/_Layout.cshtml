@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - MWA</title>
+    <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon">
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/flexslider")
+    @Scripts.Render("~/bundles/fancybox")
+</head>
+<body>
+    <section id="home">
+        <div class="row centered center-block">
+            <h1 class="fade in">
+                <img alt="MWA" src="~/Media/logo_header.png">
+            </h1>
+            <div class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <h2>lorem ipsum</h2>
+                        <h2>
+                            <i class="fa fa-desktop"></i>
+                            <i class="fa fa-tablet"></i>
+                            <i class="fa fa-mobile-phone"></i>
+                        </h2>
+                    </li>
+                    <li>
+                        <h2>dolor sit amet</h2>
+                    </li>
+                    <li>
+                        <h2>consectetur adipisicing elit</h2>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="down_button" class="fade in">
+            <a href="whatwedo"></a>
+        </div>
+        <div class="social-header">
+            <a href="#" class="social-network sn2 behance"></a>
+            <a href="#" class="social-network sn2 facebook"></a>
+            <a href="#" class="social-network sn2 pinterest"></a>
+            <a href="#" class="social-network sn2 flickr"></a>
+            <a href="#" class="social-network sn2 dribbble"></a>
+            <a href="#" class="social-network sn2 lastfm"></a>
+            <a href="#" class="social-network sn2 forrst"></a>
+            <a href="#" class="social-network sn2 xing"></a>
+        </div>
+    </section>
+
+    @*<div class="sky">
+            <div class="moon"></div>
+            <div class="clouds_one"></div>
+            <div class="clouds_two"></div>
+            <div class="clouds_three"></div>
+        </div>*@
+    @RenderBody()
+    @RenderSection("scripts", required: false)
+</body>
+</html>
