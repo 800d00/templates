@@ -204,10 +204,23 @@
     <Content Include="Content\bootstrap\bootstrap.min.css" />
     <Content Include="Content\Clouds.css" />
     <Content Include="favicon.ico" />
+    <Content Include="Media\1.png" />
+    <Content Include="Media\1big.png" />
+    <Content Include="Media\2.png" />
+    <Content Include="Media\2big.png" />
+    <Content Include="Media\3.png" />
+    <Content Include="Media\3big.png" />
+    <Content Include="Media\4.png" />
+    <Content Include="Media\4big.png" />
+    <Content Include="Media\5.jpg" />
+    <Content Include="Media\6.jpg" />
+    <Content Include="Media\7.jpg" />
+    <Content Include="Media\8.jpg" />
     <Content Include="Media\background.jpg" />
     <Content Include="Media\cloud_one.png" />
     <Content Include="Media\cloud_three.png" />
     <Content Include="Media\cloud_two.png" />
+    <Content Include="Media\dog.jpg" />
     <Content Include="Media\fancybox\blank.gif" />
     <Content Include="Media\fancybox\fancybox_buttons.png" />
     <Content Include="Media\fancybox\fancybox_loading%402x.gif" />
@@ -255,14 +268,19 @@
     <Content Include="Media\down.png" />
     <Content Include="Media\fancy-loading.gif" />
     <Content Include="Media\feather.png" />
+    <Content Include="Media\girl.jpg" />
     <Content Include="Media\icon-address-grey.png" />
     <Content Include="Media\icon-email-grey.png" />
     <Content Include="Media\icon-phone-grey.png" />
     <Content Include="Media\icon-skype-grey.png" />
     <Content Include="Media\icon-time-grey.png" />
     <Content Include="Media\littletweet.png" />
+    <Content Include="Media\logo_footer.png" />
     <Content Include="Media\logo_header.png" />
+    <Content Include="Media\logo_small.png" />
     <Content Include="Media\moon.png" />
+    <Content Include="Media\racoon.jpg" />
+    <Content Include="Media\salex.jpg" />
     <Content Include="Media\share.png" />
     <Content Include="Media\social-networks-2.png" />
     <Content Include="Media\social-networks.png" />
@@ -279,6 +297,9 @@
     <Content Include="Scripts\fancybox\jquery.fancybox.pack.js" />
     <Content Include="Scripts\jquery.flexslider.js" />
     <Content Include="Scripts\jquery.mousewheel-3.0.6.pack.js" />
+    <Content Include="Scripts\jquery.scrollto.js" />
+    <Content Include="Scripts\jquery.tweet.js" />
+    <Content Include="Scripts\jquery.waypoints.min.js" />
     <Content Include="Scripts\retina.min.js" />
     <Content Include="Scripts\Site.js" />
     <Content Include="Scripts\validate\jquery.validate.js" />
@@ -328,6 +349,11 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Shared\NavigationBar.cshtml" />
+    <Content Include="Views\Services\Services.cshtml" />
+    <Content Include="Views\Portfolio\Portfolio.cshtml" />
+    <Content Include="Views\Shared\Twitter.cshtml" />
+    <Content Include="Views\Shared\Footer.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

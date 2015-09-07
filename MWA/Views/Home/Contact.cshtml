@@ -1,17 +1,61 @@
 ﻿@{
     ViewBag.Title = "Contact";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
-
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
-
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-xs-12 centered">
+                <h2> say hello</h2>
+                <div class="breaker">
+                    <span class="left"></span>
+                    <div class="feather"></div>
+                    <span class="right"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-xs-12 centered">
+                <p class="subtittle">
+                    We can help you<strong>promote</strong> your business.<br />
+                    Think we might help? We'd love to hear from you.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-7 col-xs-5 centered">
+                <form action="" method="post" name="salex">
+                    <input type="text" placeholder="YOUR NAME" name="first_name"/>
+                    <input type="text" placeholder="YOUR E-MAIL" name="email"/>
+                    <textarea placeholder="YOUR MESSAGE" rows="5" name="comments"></textarea>
+                    <button class="button" type="submit" name="send">Take a leap</button>
+                </form>
+            </div>
+            <div class="col-md-5 col-xs-3">
+                <div class="info">
+                    <p class="contactAddress">
+                        53 Studentilor 12/1
+                        <br />
+                        Chisinau
+                        <br />
+                        Moldova
+                        <br />
+                        <a class="fancybox-media fancybox-iframe" href="https://maps.google.com/maps/ms?ie=UTF8&oe=UTF8&msa=0&msid=218337429610107903639.00047c7b97971cc480289&dg=feature&t=h&ll=48.857423,2.286819&spn=0.002471,0.00456&z=17&iwloc=00047c7b9b089f45e6058&output=embed">View Map</a>
+                    </p>
+                </div>
+                <div class="info">
+                    <p class="contactPhone">Phone: (00) 37379062119</p>
+                    <p class="contactEmail">Email:
+                        <a href="mailto:madriva@mail.ru">madriva@mail.ru</a>
+                    </p>
+                    <p class="contactSkype">Skype: <a href="#">iskander-al-amin</a></p>
+                </div>
+                <div class="info"></div>
+            </div>
+        </div>
+    </div>
+    @*<address>
+        <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
+        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+        <abbr title="Phone">P:</abbr>425.555.0100
+    </address>*@
+</section>

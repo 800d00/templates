@@ -10,7 +10,7 @@
 //}
 /*
  
- 01. Twitter - Remplace username by yours
+ 01. Twitter
  02. Roles of Header
  03. Smooth Scroll ( ScrollTo )
  04. Navigation - Selected and sticky Navigation
@@ -31,12 +31,12 @@ $(window).load(function () {
     });
 });
 
-/* -- 01.  TWITTER MAKE IT WORK - Just Replace wrapbootstrap username -- */
+/* -- 01.  TWITTER  */
 
 
 jQuery(function ($) {
     $("#ticker").tweet({
-        username: 'wrapbootstrap',
+        username: 'alex.safonov',
         page: 1,
         avatar_size: 0,
         count: 10,
@@ -66,6 +66,7 @@ jQuery(function ($) {
 $('ul.nav a, #down_button a').click(function (e) {
     $('html,body').scrollTo(this.hash, this.hash);
     e.preventDefault();
+    return false;
 });
 
 /* -- 04. NAVBAR STICKY + SELECTED  -- */
@@ -81,7 +82,7 @@ $(function () {
     var waypoint_offset = -60;
 
     nav_container.waypoint({
-        handler: function (event, direction) {
+        handler: function (direction) {
 
             if (direction == 'down') {
 

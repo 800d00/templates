@@ -22,14 +22,21 @@ namespace MWA
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
-            bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap/bootstrap.js",
-                      "~/Scripts/Site.js",
-                      "~/Scripts/respond/respond.js"));
-
             bundles.Add(new ScriptBundle("~/bundles/fancybox").Include(
                       "~/Scripts/fancybox/jquery.fancybox.js",
                       "~/Scripts/fancybox/jquery.fancybox*"));
+
+            bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
+                      "~/Scripts/bootstrap/bootstrap.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/waypoints").Include(
+                      "~/Scripts/jquery.waypoints.min.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/site").Include(
+                      "~/Scripts/jquery.scrollto.js",
+                      "~/Scripts/respond/respond.js",
+                      "~/Scripts/jquery.tweet.js",
+                      "~/Scripts/Site.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       //"~/Content/bootstrap/bootstrap.css",
